@@ -1,0 +1,58 @@
+{
+    "rendaFixa": [
+        {
+            "id": 1,
+            "nome": "Tesouro Selic 2025",
+            "valorInvestido": 1000.0,
+            "valorTotal": 1005.0,
+            "vencimento": "2025-03-01",
+            "dataDeCompra": "2020-03-01",
+            "iof": 0.0,
+            "indice": 0.0,
+            "tipo": "Tesouro Selic 2025",
+            "precoUnitario": 1.0,
+            "urlImg": "https://finclass.com/blog/wp-content/uploads/2022/06/image-9.png"
+        },
+        {
+            "id": 2,
+            "nome": "Tesouro Selic 2026",
+            "valorInvestido": 1000.0,
+            "valorTotal": 1005.0,
+            "vencimento": "2025-03-01",
+            "dataDeCompra": "2020-03-01",
+            "iof": 0.0,
+            "indice": 0.0,
+            "tipo": "Tesouro Selic 2025",
+            "precoUnitario": 1.0,
+            "urlImg": "https://finclass.com/blog/wp-content/uploads/2022/06/image-9.png"
+        }
+    ],
+    "rendaVariavel": [
+        {
+            "id": 1,
+            "nome": "Banco do Brasil (BBAS3)",
+            "valorInvestido": 1000.0,
+            "valorTotal": 1005.0,
+            "vencimento": "2025-03-01",
+            "dataDeCompra": "2020-03-01",
+            "iof": 0.0,
+            "indice": 1.0,
+            "tipo": "Ação",
+            "precoUnitario": 1.0,
+            "urlImg": "https://investidorsardinha.r7.com/wp-content/uploads/2020/04/banco-do-brasil-bbas3.png"
+        },
+        {
+            "id": 2,
+            "nome": "Magazine Luiza (MGLU3)",
+            "valorInvestido": 1000.0,
+            "valorTotal": 1005.0,
+            "vencimento": "2025-03-01",
+            "dataDeCompra": "2020-03-01",
+            "iof": 0.0,
+            "indice": 3.4,
+            "tipo": "Ação",
+            "precoUnitario": 1.0,
+            "urlImg": "https://www.ideianoar.com.br/wp-content/uploads/2021/05/magalu-marketplace-1.png"
+        }
+    ]
+}

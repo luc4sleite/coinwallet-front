@@ -1,0 +1,26 @@
+<div class="container mt-5">
+    <h1 class="text-center">Investimentos - Renda Variável</h1>
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Valor Investido (R$)</th>
+                <th scope="col">Vencimento</th>
+                <th scope="col">Data da Compra</th>
+                <th scope="col">Preço Unitário (R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of investimentoFixoLista">
+                <th scope="row">{{item.nome}}</th>
+                <td>{{item.valorInvestido}}</td>
+                <td>{{item.vencimento | date: 'dd/MM/yyyy'}}</td>
+                <td>{{item.dataCompra | date: 'dd/MM/yyyy'}}</td>
+                <td>{{item.precoUnitario}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-end">
+        <button class="btn btn-outline-primary" routerLink="/investimentos">Voltar</button>
+    </div>
+</div>

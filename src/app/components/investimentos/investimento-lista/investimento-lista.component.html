@@ -1,0 +1,40 @@
+<div class="container flex-column text-center mt-3">
+    <h1>Meus Investimentos</h1>
+    <div class="container mt-5 d-flex flex-column">
+        <h3 class="text-start ">Renda <b class="text-warning">Variável</b></h3>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <div class="card d-flex flex-wrap investimento" style="width: 18rem;" *ngFor="let item of investimentoVariavelLista" (click)="redirect(item.id, 'rendaVariavel')">
+                <img src="{{item.urlImg}}" class="card-img-top" alt="">
+                <div class="card-body d-flex flex-column">
+                    <p class="card-text">{{item.nome}}</p>
+                    <span>Preço Hoje: <b class="text-success">R${{item.precoUnitario}} ({{item.indice}})</b></span>
+                    <span>Valor Investido: R${{item.valorInvestido}}</span>
+                    <span>Valor Total: R${{item.valorTotal}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end mt-4">
+        <button class="btn btn-outline-dark w-auto" routerLink="/investimentos-variaveis">Ver mais</button>
+    </div>
+
+    <div class="border border-bottom w-100 mt-5 border-warning "></div>
+
+    <div class="container mt-5">
+        <h3 class="text-start ">Renda <b class="text-warning">Fixa</b></h3>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <div class="card d-flex justify-content-center align-items-center investimento" style="width: 18rem;" *ngFor="let item of investimentoFixaLista" (click)="redirect(item.id, 'rendaVariavel')">
+                <div class="card-body d-flex flex-column">
+                    <img src="{{item.urlImg}}" class="card-img-top" alt="">
+                    <p class="card-text">{{item.nome}}</p>
+                    <span>Preço Hoje: <b class="text-success">R${{item.precoUnitario}} ({{item.indice}})</b></span>
+                    <span>Valor Investido: R${{item.valorInvestido}}</span>
+                    <span>Valor Total: R${{item.valorTotal}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-end mt-4">
+        <button class="btn btn-outline-dark w-auto" routerLink="/investimentos-fixos">Ver mais</button>
+    </div>
+</div>

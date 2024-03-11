@@ -1,0 +1,30 @@
+<div class="container mt-5">
+    <h1 class="text-center">{{investimento.nome}}</h1>
+    <div class="card">
+        <div class="d-flex flex-column card-body">
+            <table class="table table-striped text-center">
+                <thead>
+                    <tr>
+                        <th scope="col">Valor Investido (R$)</th>
+                        <th scope="col">Valor Total (R$)</th>
+                        <th scope="col">Vencimento</th>
+                        <th scope="col">Data de compra</th>
+                        <th scope="col">Preço Unitário (R$)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">{{investimento.valorInvestido}}</th>
+                        <td>{{investimento.valorTotal}}</td>
+                        <td>{{investimento.vencimento | date:'dd/MM/yyyy'}}</td>
+                        <td>{{investimento.dataDeCompra | date:'dd/MM/yyyy'}}</td>
+                        <td>{{investimento.precoUnitario}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer d-flex justify-content-end">
+            <button class="btn btn-outline-primary" routerLink="/investimentos">Voltar</button>
+        </div>
+    </div>
+</div>
