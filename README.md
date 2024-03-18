@@ -22,6 +22,7 @@ Depois acesse no seu navegador `http://localhost:4200/investimentos`.
 
 Pronto, você terá uma visão semelhante a essa:
 
+![image](https://github.com/luc4sleite/coinwallet-front/assets/115735167/1922d6ae-631e-4000-b1ff-81c37fb0a12d)
 
 ## Próximos Passos
 
