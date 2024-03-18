@@ -6,10 +6,10 @@ Projeto Integrador do Curso de Análise e Desenvolvimento de Sistemas do SENAC
 
 Para a executação desse Projeto você deverá cumprir alguns passos: 
 
-[x] Instalação do NodeJS
-[x] Instalação do Angular 16 ou posterior
-[x] [Criação do banco de dados com os registros]()
-[x] [Execução do Backend](https://github.com/luc4sleite/coinwallet-back)
+- [x] Instalação do NodeJS
+- [x] Instalação do Angular 16 ou posterior
+- [x] [Criação do banco de dados com os registros]()
+- [x] [Execução do Backend](https://github.com/luc4sleite/coinwallet-back)
 
 ## Execução do Projeto
 
