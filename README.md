@@ -1,27 +1,37 @@
 # Coinwallet
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Projeto Integrador do Curso de Análise e Desenvolvimento de Sistemas do SENAC
 
-## Development server
+## Requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Para a executação desse Projeto você deverá cumprir alguns passos: 
 
-## Code scaffolding
+[x] Instalação do NodeJS
+[x] Instalação do Angular 16 ou posterior
+[x] [Criação do banco de dados com os registros]()
+[x] [Execução do Backend](https://github.com/luc4sleite/coinwallet-back)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Execução do Projeto
 
-## Build
+Execute o terminal/prompt de comando dentro da pasta raiz do projeto e rode o código:
+```cmd
+    npm start
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Depois acesse no seu navegador `http://localhost:4200/investimentos`.
 
-## Running unit tests
+Pronto, você terá uma visão semelhante a essa:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Próximos Passos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Criação das páginas Pra Você e Novidades.
 
-## Further help
+## Membros do Grupo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Caio Henrique Campos de Mattos]()
+- [Carlos Augusto Neves dos Santos]()
+- [Lucas Gonçalves Leite](https://github.com/luc4sleite)
+- [Pedro Henrique Loria Castro]()
+- [Ricardo Moreira Faustino]()
+
