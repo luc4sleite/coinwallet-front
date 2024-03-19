@@ -33,7 +33,7 @@ Criação das páginas Pra Você e Novidades.
 ## Membros do Grupo
 
 - [Caio Henrique Campos de Mattos](https://github.com/caiohcmattos)
-- [Carlos Augusto Neves dos Santos]()
+- [Carlos Augusto Neves dos Santos](https://github.com/Knevssantos)
 - [Lucas Gonçalves Leite](https://github.com/luc4sleite)
-- [Pedro Henrique Loria Castro]()
+- [Pedro Henrique Loria Castro](https://github.com/phlc19)
 - [Ricardo Moreira Faustino](https://github.com/ricfaus)
